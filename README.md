@@ -1,4 +1,4 @@
-# Unified Campus ERP — Smart Campus Operating System
+# 🎓 Unified Campus ERP — Smart Campus Operating System
 
 <div align="center">
 
@@ -20,51 +20,121 @@
   <b>Golden Rule:</b> <i>"Fill Once, Use Everywhere"</i> — Zero redundant paperwork, zero WhatsApp broadcast chaos.
 </p>
 
+[Explore Innovations](#-the-5-breakthrough-innovations) • [System Architecture](#-system-architecture) • [Feature Matrix](#-comprehensive-feature-matrix-15-modules) • [Evaluation Personas](#-instant-1-click-evaluation-personas) • [Quickstart](#-quickstart--installation-guide)
+
 </div>
 
 ---
 
-## 📌 Table of Contents
-1. [Executive Summary & The "Tuesday Dilemma"](#-executive-summary--the-tuesday-dilemma)
-2. [Core Architecture & Technology Stack](#-core-architecture--technology-stack)
-3. [Comprehensive Feature Matrix (15 Production Modules)](#-comprehensive-feature-matrix-15-production-modules)
-4. [Instant 1-Click Evaluation Personas](#-instant-1-click-evaluation-personas)
-5. [End-to-End Operational Workflows](#-end-to-end-operational-workflows)
-6. [Resilient Computing & Accessibility (2G + USSD)](#-resilient-computing--accessibility-2g--ussd)
-7. [Repository Structure](#-repository-structure)
-8. [Installation & Local Setup Guide](#-installation--local-setup-guide)
-9. [Institutional Design System & Palette](#-institutional-design-system--palette)
-10. [Statutory Compliance & Standards](#-statutory-compliance--standards)
+## 🏛️ Executive Summary: "The Tuesday Dilemma"
+
+Most universities across India operate on a fragmented patchwork of paper registers, physical notice boards, unofficial WhatsApp groups, printed forms, and disconnected spreadsheets. Students lose hours standing in physical lines, while administrators lack real-time visibility into pending tasks, curfew status, mess procurement, and statutory compliance.
+
+```
+THE OLD REALITY (Half a day wasted across 4 physical checkpoints):
+1. Bonafide Certificate  ──► Admin Block Counter 3 (Queue opens 11:00 AM)
+2. Leaking Hostel Tap    ──► Physical Warden Diary (Wait until night rounds)
+3. Cancelled Lecture     ──► Lost inside a 200-member noisy WhatsApp group
+4. Mess Dinner Menu      ──► Ask a senior "who usually knows"
+
+THE CAMPUS OS REALITY (0 Queues · 0 WhatsApp Noise · Instant Resolution):
+1. Bonafide Certificate  ──► 1-Click apply with auto-locked verified ERP identity & scheduled counter pass
+2. Leaking Hostel Tap    ──► 72h SLA timer, auto-routed to plumber, closed ONLY with Student Completion OTP
+3. Cancelled Lecture     ──► Official faculty timetable broadcast with authenticated push delivery
+4. Mess Dinner Menu      ──► Live 7-day nutritional menu + opt-out before 5 PM for headcount audit & ₹25 rebate
+```
 
 ---
 
-## 🏛️ Executive Summary & The "Tuesday Dilemma"
+## 🌟 The 5 Breakthrough Innovations
 
-Technical colleges and universities frequently operate on a fragmented patchwork of manual registers, overcrowded admin counters, chaotic WhatsApp groups, printed paper applications, and disconnected spreadsheets. Students lose hours standing in physical lines, while administrators lack real-time visibility into pending tasks, curfew status, mess procurement, and statutory compliance.
+Beyond standard ERP digitisation, Campus OS introduces **5 core outlier innovations** engineered specifically for real-world campus constraints, infrastructure gaps, and statutory university mandates:
 
-### The Real-World Friction ("The Tuesday Dilemma")
-A student who needs a **Bonafide Certificate**, wants to report a **leaking hostel tap**, needs to check if tomorrow's **9:00 AM lecture is cancelled**, and wants to verify the **mess dinner menu** previously had to visit:
-1. **Administrative Block Counter Window 3** *(Queue starts 11:00 AM)*
-2. **Hostel Warden’s Diary** *(Wait until evening inspection)*
-3. **Department Notice Board** *(Search through paper circulars)*
-4. **Consult a Senior** *(“Who usually knows what’s cooking”)*
+<br/>
 
-**Total Elapsed Time:** Half a day.  
-**Total tasks genuinely requiring manual paper:** **Zero.**
+### 1. 🤖 CampusDesk: Self-Learning Institutional AI & Support Hub
+> *A 24/7 conversational campus assistant that continuously learns from human support officers in real time.*
 
-### The Campus OS Solution
-Unified Campus ERP unifies these disjointed touchpoints into a cohesive, role-aware, enterprise-grade operating system. Built on the foundational principle of **"Fill Once, Use Everywhere"**, every student has a single verified identity record that automatically powers smart forms, outpasses, physical certificates, exam hall tickets, and mess rebates without ever retyping demographic data.
+```
+Student Asks Query
+        │
+        ▼
+[Learned Knowledge Engine] ──(Match Found)──► Instant Verified Resolution (<300ms)
+        │ (No Match / Complex)
+        ▼
+[Primary Campus LLM API]  ──(Grounded Context)──► Automated Response
+        │ (Student requests human / Low Confidence)
+        ▼
+[Live Support Queue]      ──► Human Officer responds in /support-desk
+                                     │
+                                     ▼
+                    [Auto-Teach Feedback Loop]
+                    System permanently indexes approved Q&A
+                    into 'chatbot_learned_qa'. All future
+                    students get instant automated answers!
+```
+
+- **Institutional Grounding**: Pre-indexed on BPUT academic regulations, 75% attendance rules, hostel curfew bylaws, and official certificate procedures.
+- **Autonomous Feedback Loop**: When a human support officer answers an escalated ticket in the Support Desk console, a single checkbox permanently commits the verified answer to the institutional knowledge base.
+- **Privacy Shield**: The engine strips internal provider tags, presenting a neutral, tamper-proof academic intelligence assistant.
 
 ---
 
-## ⚙️ Core Architecture & Technology Stack
+### 2. 📱 Zero-Hardware Feature Phone USSD Engine (`*141#` / `*789#`)
+> *Bridging the digital divide for students with basic keypad phones or zero cellular data.*
 
-The application is engineered as a decoupled, high-performance web platform designed to function on high-end desktop workstations down to 2G cellular connections and low-cost Android phones.
+- **100% Software-Based Simulation**: Interactive in-browser feature phone simulator demonstrating complete USSD menu navigation (`*141#`) with zero dependency on expensive telco hardware or paid SMS gateways.
+- **Complete Operational Parity**:
+  - `1. Attendance Status` → Real-time % check, classes attended/conducted, and debarment clearance.
+  - `2. Hostel Gatepass` → Instant 4-digit numeric token code for security guard exit/entry verification.
+  - `3. Mess Menu & RSVP` → Inspects daily menu and submits dinner opt-out to earn rebate credits.
+  - `4. Emergency Circulars` → Displays urgent statutory campus directives directly on the 128x160 monochrome screen.
+
+---
+
+### 3. ⚡ 2G Low-Bandwidth Mode (99.2% Data Saved • 14.2 KB Payload)
+> *Engineered for thick concrete hostel dorms and throttled 64 kbps cellular connections.*
+
+- **The Problem**: Concrete hostel blocks and congested cell towers frequently drop connections down to 2G/EDGE (64 kbps throttled FUP limits). Heavy modern web apps (2+ MB) completely hang.
+- **The Architecture**:
+  - One-click top-bar toggle applies `.low-bandwidth-mode` directly to `document.body`.
+  - **CSS Stripping & GPU Decoupling**: Completely eliminates CSS keyframe animations, transition lags, text shadows, filter blurs, and elevation box-shadows.
+  - **Asset Suppression**: Disables non-essential raster images and decorative SVGs (`img, svg.decorative { display: none !important; }`).
+  - **Payload Compression**: Slashes operational network transfer from **~1.8 MB down to just 14.2 KB** (a 99.2% data reduction), allowing gatepass generation and notice acknowledgments to load in under **1.2 seconds on 2G**.
+
+---
+
+### 4. 🔒 Anti-Fraud Security: Secured Student OTP & Dynamic Gatepass QR
+> *Tamper-proof accountability across physical hostel security and campus maintenance.*
+
+- **Secured Grievance Completion OTP**:
+  - Maintenance technicians cannot falsely mark leaking taps or electrical issues as "Resolved" from their desks.
+  - The secret 4-digit Completion OTP is **rendered exclusively on the student's screen** who raised the ticket. Technicians and mess managers receive `NULL` in APIs.
+  - The technician must physically visit the room, perform the repair, and obtain the OTP from the student to successfully close the ticket.
+- **Time-Expiring Holographic Gatepass QR**:
+  - Outpasses render a dynamic, rotating countdown ticker and auto-expiring QR code with a 4-digit fallback token, completely preventing student screenshot-sharing or badge forgery.
+  - Dedicated **Security Guard Gate Terminal Mode** enables 1-click Exit and Entry punches with automated curfew breach flags.
+
+---
+
+### 5. 🍲 Smart Mess Food Waste Prevention & Live Head Chef Kiosk
+> *Closing the loop between student dining schedules and commercial kitchen procurement.*
+
+- **Dinner RSVP Waste Prevention Engine**: Students opt out of dinner before the daily 5:00 PM cutoff to earn **Mess Rebate Credits** credited toward monthly hostel dues.
+- **Head Chef Live Headcount Kiosk (`/mess-manager`)**:
+  $$\text{Net Plates to Cook} = \text{Total Boarders} - \text{Opted Out (RSVP)} - \text{Approved Hostel Leaves} \pm 15 \text{ buffer}$$
+- **Institutional Impact**: Live dashboard tracks cumulative **kilograms of food waste prevented** and **procurement rupees saved**, eliminating commercial kitchen overcooking by up to **22%**.
+
+---
+
+## ⚙️ System Architecture
+
+Campus OS is built as a decoupled, high-performance web platform combining a reactive client with an enterprise PHP 8.2 REST API gateway and a relational MySQL 8 data tier:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
 │                                   CLIENT LAYER                                          │
-│  React 19 SPA (Vite 8) · Vanilla CSS Tokens · Lucide Icons · Multilingual (EN/HI/OR)    │
+│  React 19 SPA (Vite 8) · Vanilla CSS Design Tokens · Lucide Icons · Multilingual (EN/HI/OR) │
 │  Responsive Viewports: Desktop Admin, Tablet Counter, Mobile Gate Terminal, USSD Sim    │
 └─────────────────────────────────────────▲──────────────────────────────────────────────┘
                                           │ RESTful JSON APIs (CORS Enabled)
@@ -79,57 +149,33 @@ The application is engineered as a decoupled, high-performance web platform desi
 │  AuthController           ProfileController         RbacController                     │
 │  SmartFormController      ServiceRequestController  NoticeController                   │
 │  GrievanceController      ExamController            CampusLifeController               │
-│  ChatbotController (Groq / Institutional LLM Engine with Self-Learning Loop)           │
+│  ChatbotController (Campus Intelligence Engine with Self-Learning Loop)                │
 └─────────────────────────────────────────▲──────────────────────────────────────────────┘
                                           │ PDO Prepared Statements
 ┌─────────────────────────────────────────▼──────────────────────────────────────────────┐
 │                                   DATABASE LAYER                                       │
 │  MySQL 8.0+ (InnoDB, UTF-8 MB4) · Foreign Key Constraints · Referential Integrity      │
-│  Physical File Storage: `/backend/uploads/notices/` (Authenticated Downloads)          │
+│  Complete Seed Dump: `/backend/database/collegelife_db.sql` (272 KB Clean Dataset)     │
 └────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
-### Frontend Specifications
-- **Framework**: React 19 (`react` 19.2.8, `react-dom` 19.2.8)
-- **Tooling & Bundler**: Vite 8 (`vite` 8.3.0, `@vitejs/plugin-react` 6.1.1)
-- **Routing**: React Router v7 (`react-router-dom` 7.18.4)
-- **Icons**: Lucide React (`lucide-react` 1.52.0)
-- **Linter & Code Quality**: Oxlint (`oxlint` 1.81.0)
-- **Design System**: Zero-Tailwind Pure Vanilla CSS (`index.css` ~47 KB)
-  - Predefined CSS tokens, semantic themes, HSL colors
-  - Embedded **2G Low-Bandwidth Mode** (drops heavy assets, reduces UI payload to **14.2 KB**)
-- **State Management**: React Context (`AuthContext`, `AccessibilityContext`)
-
-### Backend Specifications
-- **Runtime**: PHP 8.2 (Modular RESTful API pattern with `declare(strict_types=1);`)
-- **Routing**: Single entry point `backend/api/index.php` with regex dispatching
-- **Database Layer**: Native PHP Data Objects (PDO) with strict prepared statements
-- **Security & Authorization**:
-  - Bearer token authentication (`X-Auth-Token` / `Authorization`)
-  - Two-dimensional RBAC: Primary Roles + Dynamic Contextual Tags
-  - Immutable audit logging on all administrative actions
-- **AI Integration**:
-  - Direct cURL REST integration for automated conversational inference
-  - Local handbook fallback engine for zero-network resilience
-  - Self-learning knowledge loop (`chatbot_learned_qa`)
-
 ---
 
-## 🚀 Comprehensive Feature Matrix (15 Production Modules)
+## 🚀 Comprehensive Feature Matrix (15 Modules)
 
-| # | Module Name | Route | Key Institutional Features & Problem Solved |
-|---|---|---|---|
-| **01** | **Enterprise RBAC & Security Matrix** | `/rbac`, `/audit` | Dual-layer access control: 8 core roles + dynamic tags (`class_representative`, `hostel_prefect`). 38+ fine-grained permissions. Tamper-evident audit ledger capturing actor, role, IP address, and payload diff. |
-| **02** | **Verified Identity & Digital ID Pass** | `/profile`, `/students` | *"Fill Once, Use Everywhere"* master record (Roll No, Reg No, Cohort, Blood Group, Hostel Room). Official printable Digital Campus Pass with holographic seal, institutional watermark, and dynamic barcode. |
-| **03** | **Smart Forms Engine** | `/forms` | Replaces unverified Google Forms. 22 auto-locked ERP identity fields pre-filled and permanently read-only. Dynamic form builder (text, dropdown, checkboxes, file uploads). 1-click audit CSV export merging student master data. |
+| # | Module | Route | Primary Highlights & Institutional Workflows |
+|:---:|---|---|---|
+| **01** | **Enterprise RBAC & Audit Trail** | `/rbac`, `/audit` | Dual-layer security: 8 core institutional roles + dynamic tags (`class_representative`, `hostel_prefect`). 38+ fine-grained permissions. Tamper-evident audit ledger capturing timestamp, actor, role, IP address, and payload diff. |
+| **02** | **Verified Identity & Smart ID Pass** | `/profile`, `/students` | *"Fill Once, Use Everywhere"* master data source. University Digital Campus Pass with institutional crest, holographic watermark seal, dynamic barcode, and print-ready laser stylesheet. |
+| **03** | **Smart Forms Engine** | `/forms` | Replaces Google Forms. 22 auto-locked ERP identity fields permanently read-only when answered by students. Dynamic form builder (text, dropdowns, checkboxes, file uploads). 1-click audit CSV export merging master student records. |
 | **04** | **Digital Certificates & Service Center** | `/services` | Bonafide, Character, Internship NOC, Attestations. Multi-stage approval lifecycle. Scheduled physical counter pickup pass (e.g., *Counter 3, 11:30 AM*). Official wet seal & registrar ink delivery verification ledger. |
-| **05** | **Statutory Notice Board & Read Compliance** | `/notices` | Replaces WhatsApp chaos. Targeted scoping by Branch, Semester, Hostel, or Tag. Immutable circular reference numbers (`CUT/REG/2026/04`). Mandatory digital read-acknowledgments with live compliance percentage (e.g., *94.2% Acknowledged*). |
-| **06** | **Grievance Desk & Root-Cause Pattern Radar** | `/grievances` | Strict 24h/72h SLA timers with auto-routing to concerned technicians. Executive Directorate oversight scope (Principal only sees SLA breaches or direct escalations). **Secured Student Completion OTP** prevents fake closures. Autonomous spatial pattern radar heatmap. |
+| **05** | **Statutory Notice Board & Read Compliance** | `/notices` | Precision scoping by Branch, Semester, Hostel, or Tag. Immutable circular reference numbers (`CUT/REG/2026/04`). Mandatory digital read-acknowledgments with live compliance meter (e.g., *94.2% Acknowledged*) and automated reminder queues. |
+| **06** | **Grievance Desk & Root-Cause Pattern Radar** | `/grievances` | Strict 24h/72h SLA timers with auto-routing to technicians. Executive Directorate oversight scope (Principal only sees SLA breaches). **Secured Student Completion OTP**. Autonomous spatial pattern radar heatmap. |
 | **07** | **Examination Cell, Hall Tickets & Grade Sheets** | `/exams` | Active Examination Term switcher. Automated **75% Attendance Debarment Gatekeeper** (BPUT Reg 14.2) with HOD condonation override. 1-click Bulk Release Cards. Printable admit card with security QR and marks moderation ledgers. |
 | **08** | **Digital Gatepass & Guard Punch Terminal** | `/gatepass` | Day Pass & Night Outpass workflow with parent phone auto-locking. Anti-screenshot time-expiring QR code + 4-digit numeric fallback. Security guard gate terminal mode with 1-click Exit/Entry punch, curfew defaulter flags, and live warden campus census gauge. |
-| **09** | **Smart Mess Operations & Food Waste Prevention** | `/mess`, `/mess-manager` | 7-day nutritional menu board. "Skip Meal RSVP" waste prevention engine with cutoff reminders and **Mess Rebate Credits**. Head Chef Kiosk projecting exact net plates to cook (Total - Opted Out - On Leave) with live ₹/kg food waste savings. |
-| **10** | **Academic Timetable & 75% Attendance Compliance** | `/academics` | Proactive attendance gauge showing safe skip buffer or shortage deficit. 1-click faculty roll-call roster. 1-click room change / class cancellation broadcast. Official duty leave submission with automatic attendance credit upon approval. |
-| **11** | **Zero-Hardware Feature Phone USSD Engine** | `/feature-phone` | 100% software-based interactive feature phone simulation (`*141#` / `*789#`). Zero hardware/telecom gateway costs. Students can check attendance, fetch outpass tokens, view mess menu, RSVP, and read circulars on basic 2G phones. |
+| **09** | **Smart Mess Operations & Food Waste Prevention** | `/mess`, `/mess-manager` | 7-day nutritional menu board. "Skip Meal RSVP" waste prevention engine with cutoff reminders and **Mess Rebate Credits**. Head Chef Kiosk projecting exact net plates to cook with live ₹/kg food waste savings. |
+| **10** | **Academic Timetable & 75% Attendance Meter** | `/academics` | Proactive attendance gauge showing safe skip buffer or shortage deficit. 1-click faculty roll-call roster. 1-click room change / class cancellation broadcast. Official duty leave submission with automatic attendance credit upon approval. |
+| **11** | **Feature Phone USSD Simulator** | `/feature-phone` | 100% software-based interactive feature phone simulation (`*141#` / `*789#`). Zero hardware/telecom cost. Access attendance, gatepass tokens, mess menu, meal RSVPs, and urgent notices on basic 2G phones. |
 | **12** | **Trilingual Regional Language Support** | Header Toggle | Instant one-click toggle across **English (`en`)**, **Hindi (`hi`)**, and native **Odia (`or` - ଓଡ଼ିଆ)**. Designed for regional students, hostel security guards, and mess staff across Odisha technical institutions. |
 | **13** | **2G Low-Bandwidth Mode** | Header Toggle | Strips CSS animations, box-shadow elevations, and decorative images. Drops UI network payload by **99.2% (14.2 KB total)** for buttery smooth performance inside concrete hostel corridors and throttled 64 kbps connections. |
 | **14** | **1-Click Legacy CSV Migration Wizard** | `/adoption-migration` | Solves university onboarding. Drag-and-drop CSV parser with automatic column mapping, validation preview, and 1-click database seeding for 2,000+ students. Includes a 4-week phased zero-downtime adoption playbook. |
@@ -154,172 +200,6 @@ The application includes 8 pre-seeded institutional personas. Evaluators can swi
 
 ---
 
-## 🔄 End-to-End Operational Workflows
-
-```
-WORKFLOW OVERVIEW
-═══════════════════════════════════════════════════════════════════════════════════════════════════
-1. Certificate Desk:    [Student Applies] ──> [Admin Review] ──> [Pick-Up Pass] ──> [Wet Seal Delivery]
-2. Smart Forms:         [CR/Staff Builds] ──> [Auto-Fill Lock] ──> [Student Answers] ──> [Merged CSV Export]
-3. Gatepass & Curfew:   [Student Request] ──> [Auto/Warden Consent] ──> [QR Code] ──> [Guard Punch] ──> [Live Census]
-4. Mess Food Waste:     [7-Day Menu] ──> [Student Skips Dinner] ──> [Chef Headcount] ──> [Savings Calculated]
-5. Grievances:          [Ticket Logged] ──> [SLA Timer & Routing] ──> [Technician Dispatched] ──> [Student OTP Closure]
-6. Academic Attendance: [Faculty Marks Class] ──> [75% Meter Updated] ──> [Admit Card Gatekeeper] ──> [Exam Entry]
-7. Feature Phone:       [Student Dials *141#] ──> [USSD Menu] ──> [Token Generated] ──> [Guard Verifies]
-8. Self-Learning AI:    [Query Asked] ──> [Bot Escalates] ──> [Staff Answers] ──> [System Indexes Q&A for Future]
-═══════════════════════════════════════════════════════════════════════════════════════════════════
-```
-
-### Detailed Highlights
-1. **Physical Certificate Pick-Up Workflow**: Student applies in 1-click using auto-locked ERP identity. Admin approves and assigns Counter Window 3 with a scheduled time slot. Student generates an official **Collection Pass** with university crest and barcode. Counter staff inspects physical ID, wet-seals the paper certificate, and archives the transaction in the Central Dispatch Ledger.
-2. **Grievance Resolution with Completion OTP**: A technician dispatched for a plumbing or electrical issue cannot close the ticket from their own console. The ticket requires entering the **4-digit secret OTP visible only to the student** who raised the complaint, completely eliminating fraudulent closures.
-3. **Mess Food Waste Prevention**: Students opt out of dinner before 5:00 PM to earn ₹25 Rebate Credits. The Head Chef Kiosk calculates: `Total Boarders - Opted Out - On Approved Leave = Net Plates to Cook (±15 buffer)`. Reduces mess procurement waste by up to 22%.
-
----
-
-## ⚡ Resilient Computing & Accessibility (2G + USSD)
-
-Campus OS is explicitly architected to overcome the infrastructural realities of tier-2/tier-3 Indian colleges:
-
-### 1. 2G Low-Bandwidth Mode (99.2% Data Saved • 14.2 KB Payload)
-- **Problem**: Thick concrete hostel walls and congested student cell towers degrade network speed to 64 kbps (2G / post-FUP throttle).
-- **Engineering**:
-  - Drops all keyframe animations, transitions, filter blurs, and elevation box-shadows via `.low-bandwidth-mode`.
-  - Suppresses raster images and decorative SVGs (`img, svg.decorative { display: none !important; }`).
-  - Reduces page transfer overhead from ~1.8 MB down to **14.2 KB**, enabling instant sub-second render speeds.
-
-### 2. Feature Phone USSD Simulation (`*141#` / `*789#`)
-- Interactive software-based simulation demonstrating full feature parity on basic Nokia/JioBharat keypad phones with zero internet and zero hardware/telecom cost:
-  - `1. Attendance Status` → Returns current % and debarment clearance.
-  - `2. Hostel Gatepass` → Issues numeric 4-digit token code for guard checkout.
-  - `3. Mess Menu & RSVP` → Views dinner menu and submits meal opt-out.
-  - `4. Urgent Circulars` → Displays statutory university emergency alerts.
-
----
-
-## 📁 Repository Structure
-
-```
-collegelife/
-├── backend/
-│   ├── api/
-│   │   └── index.php                 # Central RESTful API Gateway & Dispatcher
-│   ├── config/
-│   │   └── Database.php              # PDO Connection Manager & Error Handler
-│   ├── controllers/
-│   │   ├── AuthController.php        # Authentication, Personas, Session Tokens
-│   │   ├── ProfileController.php     # Verified ERP Identity & Digital Pass
-│   │   ├── RbacController.php        # Role & Tag-Based Access Control Matrix
-│   │   ├── SmartFormController.php   # Auto-Locked Smart Forms & CSV Export
-│   │   ├── ServiceRequestController.php # Certificates, Physical Passes & Counter Ledger
-│   │   ├── NoticeController.php      # Scoped Notices, Read Receipts & SLA Reminders
-│   │   ├── GrievanceController.php   # SLA Timers, Auto-Routing, OTP Resolution & Radar
-│   │   ├── ExamController.php        # 75% Attendance Guardrail, Hall Tickets, Results
-│   │   ├── CampusLifeController.php  # Gatepass QR, Curfew Census, Mess RSVP & Headcount
-│   │   └── ChatbotController.php     # CampusDesk AI, LLM Routing & Self-Learning Loop
-│   ├── database/
-│   │   ├── schema.sql                # Complete Relational Schema (InnoDB)
-│   │   ├── seed_personas.sql         # 8 Institutional Personas & Master Records
-│   │   └── migrate_chatbot.php       # AI Knowledge Loop Database Migration
-│   └── helpers/
-│       ├── AuthHelper.php            # Bearer Token & Permission Validator
-│       └── Response.php              # Structured JSON Response Formatter
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Header.jsx            # Trilingual Switcher, 2G Mode, Persona Switcher
-│   │   │   ├── Sidebar.jsx           # Institutional Module Navigation
-│   │   │   └── CampusDeskBot.jsx     # Floating 24/7 AI Assistant Widget
-│   │   ├── context/
-│   │   │   ├── AuthContext.jsx       # User Session & Persona Switcher State
-│   │   │   └── AccessibilityContext.jsx # Trilingual (EN/HI/OR) & 2G Bandwidth Manager
-│   │   ├── pages/
-│   │   │   ├── DashboardPage.jsx     # Institutional Overview & Metrics
-│   │   │   ├── ProfilePage.jsx       # Verified Identity & Prestige ID Pass
-│   │   │   ├── StudentsPage.jsx      # Student Directory & Filter Roster
-│   │   │   ├── SmartFormsPage.jsx    # Form Builder & Locked Answering
-│   │   │   ├── ServicesPage.jsx      # Certificate Requests & Collection Pass
-│   │   │   ├── NoticesPage.jsx       # Statutory Circulars & Compliance Audit
-│   │   │   ├── GrievancesPage.jsx    # SLA Ticketing, Student OTP & Pattern Radar
-│   │   │   ├── ExamsPage.jsx         # Hall Tickets, 75% Gatekeeper & Results
-│   │   │   ├── GatepassPage.jsx      # Live QR Pass, Guard Terminal & Curfew Census
-│   │   │   ├── MessPage.jsx          # Nutritional Menu & Student RSVP Rebates
-│   │   │   ├── MessManagerPage.jsx   # Chef Headcount Kiosk & Food Waste Metrics
-│   │   │   ├── AcademicsPage.jsx     # Attendance Roster & Class Broadcasts
-│   │   │   ├── FeaturePhonePage.jsx  # Interactive USSD Feature Phone Simulator
-│   │   │   ├── AdoptionMigrationPage.jsx # 1-Click 2,000-Student CSV Wizard
-│   │   │   ├── SupportDeskPage.jsx   # AI Engine Settings & Self-Learning Hub
-│   │   │   ├── RbacPage.jsx          # Roles, Tags & Permissions Matrix
-│   │   │   └── AuditLogsPage.jsx     # Immutable Real-Time Audit Ledger
-│   │   ├── services/
-│   │   │   └── api.js                # Centralized REST API Client
-│   │   ├── App.jsx                   # Route Registry & Layout Shell
-│   │   ├── main.jsx                  # React DOM Root
-│   │   └── index.css                 # Vanilla CSS Institutional Design Tokens
-│   ├── package.json                  # Dependencies & Scripts
-│   └── vite.config.js                # Vite Configuration & Dev Server Proxy
-├── PROJECT.md                        # Master Technical & Operational Specification
-├── prototype.md                      # Complete Evaluation Prototype Document
-└── README.md                         # Project Documentation
-```
-
----
-
-## 💻 Installation & Local Setup Guide
-
-### Prerequisites
-- **Web Server**: Apache / Nginx with PHP 8.2+ (e.g., XAMPP, WampServer, or native PHP)
-- **Database**: MySQL 8.0+ or MariaDB 10.4+
-- **Node.js**: Node 18.x or 20.x with npm
-
-### 1. Database Configuration
-1. Start **Apache** and **MySQL** in your XAMPP Control Panel.
-2. Open phpMyAdmin (`http://localhost/phpmyadmin`) or MySQL CLI.
-3. Create a database named `collegelife_db`:
-   ```sql
-   CREATE DATABASE collegelife_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-   ```
-4. Import the schema and seed files located in `backend/database/`:
-   ```bash
-   mysql -u root collegelife_db < backend/database/schema.sql
-   mysql -u root collegelife_db < backend/database/seed_personas.sql
-   ```
-5. *(Optional)* Run the chatbot migration script:
-   ```bash
-   php backend/database/migrate_chatbot.php
-   ```
-
-### 2. Backend Verification
-1. Ensure the project is located under your web root (e.g., `D:/xammp/htdocs/collegelife`).
-2. Verify database credentials in `backend/config/Database.php`:
-   ```php
-   private string $host = '127.0.0.1';
-   private string $db_name = 'collegelife_db';
-   private string $username = 'root';
-   private string $password = '';
-   ```
-3. Test API connectivity in your browser:  
-   `http://localhost/collegelife/backend/api/index.php?r=auth/personas`  
-   *(Should return JSON containing the 8 pre-seeded personas).*
-
-### 3. Frontend Setup
-1. Navigate to the `frontend` directory:
-   ```bash
-   cd frontend
-   ```
-2. Install frontend dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the Vite development server:
-   ```bash
-   npm run dev
-   ```
-4. Open the application in your browser:  
-   **`http://localhost:5173`**
-
----
-
 ## 🎨 Institutional Design System & Palette
 
 Campus OS adheres to an **Institutional Light Heritage Design Standard** engineered specifically for academic rigor, high data density, and long operational sessions without eye fatigue:
@@ -333,8 +213,48 @@ Campus OS adheres to an **Institutional Light Heritage Design Standard** enginee
 | **Parchment Amber** | `#FEF3C7` | SLA warnings, statutory undertakings, notice highlight strips. |
 
 - **Strict No-Emoji Standard**: Zero childish emojis in official UI interfaces. All icons use clean, monochromatic Lucide SVG vectors.
-- **Micro-Animations**: Purposeful, subtle transitions (disabled automatically in 2G Mode).
 - **Physical Print Stylesheets**: Standardized `@media print` rules optimizing Digital Passes, Collection Passes, and Hall Tickets for physical laser printers.
+
+---
+
+## 💻 Quickstart & Installation Guide
+
+### Prerequisites
+- **Web Server**: Apache / Nginx with PHP 8.2+ (e.g. XAMPP, WampServer)
+- **Database**: MySQL 8.0+ / MariaDB 10.4+
+- **Node.js**: Node 18.x or 20.x with npm
+
+### 1. Database Setup
+1. Start **Apache** and **MySQL** in XAMPP.
+2. Open phpMyAdmin (`http://localhost/phpmyadmin`) or MySQL CLI.
+3. Create the database:
+   ```sql
+   CREATE DATABASE collegelife_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+   ```
+4. Import the complete, sanitized dataset located at `backend/database/collegelife_db.sql`:
+   ```bash
+   mysql -u root collegelife_db < backend/database/collegelife_db.sql
+   ```
+
+### 2. Backend Verification
+- Ensure the project directory is located under your web root (e.g., `d:/xammp/htdocs/collegelife`).
+- Database credentials in `backend/config/Database.php` defaults to:
+  ```php
+  private string $host = '127.0.0.1';
+  private string $db_name = 'collegelife_db';
+  private string $username = 'root';
+  private string $password = '';
+  ```
+- Test API connectivity:  
+  `http://localhost/collegelife/backend/api/index.php?r=auth/personas`
+
+### 3. Frontend Setup
+```bash
+cd frontend
+npm install
+npm run dev
+```
+Open **`http://localhost:5173`** in your browser.
 
 ---
 
