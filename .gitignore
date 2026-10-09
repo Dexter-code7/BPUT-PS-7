@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Production builds
+dist/
+frontend/dist/
+dist-ssr/
+
+# Environment and sensitive keys
+*.local
+.env
+.env.*
+grok.txt
+
+# Archive and temporary scratch files
+context.zip
+scratch_*.php
+tempuser.txt
+brain.md
+newfeature.md
+VIDEO.md
+problemstatement.txt
+migrate_attendance.php
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor & OS artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
